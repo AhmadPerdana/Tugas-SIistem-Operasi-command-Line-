@@ -88,7 +88,28 @@
 ## c. Jadikan program ke 1 sebagai foreground, tekan ^Z dan kembalikan program tersebut ke background 
 ### $ fg %1 
 ### $ bg 
+![5c](https://github.com/user-attachments/assets/c05041ae-bf62-40c4-8e66-08d0543cc306)
+
 
 ## d. Stop program background dengan utilitas kil 
 ### $ ps x 
 ### $ kill [Nomor PID] 
+![5d](https://github.com/user-attachments/assets/f2eccb04-1ab6-4e87-9d3a-f8cd886c13be)
+
+
+## 6. History 
+## a. Ganti nilai HISTSIZE dari 1000 menjadi 20 
+### $ HISTSIZE=20 
+### $ h 
+
+## b. Gunakan fasilitas history dengan mengedit instruksi baris ke 5 dari instruksi yang terakhir dilakukan 
+### $ !-5 
+
+## c. Ulangi instruksi yang terakhir. Gunakan juga ^P dan ^N untuk bernavigasi pada history bufer 
+### $ !! 
+
+## d. Ulangi instruksi pada history bufer nomor 150 
+### $ !150 
+
+## e. Ulangi instruksi dengan prefix “ls” 
+### $ !ls
