@@ -101,15 +101,20 @@
 ## a. Ganti nilai HISTSIZE dari 1000 menjadi 20 
 ### $ HISTSIZE=20 
 ### $ h 
+!-![image](https://github.com/user-attachments/assets/c37b5e73-346d-47b0-af9b-dbbf97dfbf6f)
 
 ## b. Gunakan fasilitas history dengan mengedit instruksi baris ke 5 dari instruksi yang terakhir dilakukan 
 ### $ !-5 
+![image](https://github.com/user-attachments/assets/d30e0d46-ef2e-42aa-8259-e81ff3f17654)
 
 ## c. Ulangi instruksi yang terakhir. Gunakan juga ^P dan ^N untuk bernavigasi pada history bufer 
 ### $ !! 
+![image](https://github.com/user-attachments/assets/af77405e-6434-4006-be8e-57e0b28165c4)
 
 ## d. Ulangi instruksi pada history bufer nomor 150 
 ### $ !150 
+![image](https://github.com/user-attachments/assets/30539783-eea3-4a61-ac35-bafd23eb6ed0)
 
 ## e. Ulangi instruksi dengan prefix “ls” 
 ### $ !ls
+![image](https://github.com/user-attachments/assets/59bdc47f-3782-43c0-b223-c160d294c9a9)
